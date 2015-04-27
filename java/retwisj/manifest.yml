@@ -1,0 +1,9 @@
+---
+applications:
+- name: yet-another-twitter-clone
+  memory: 512M
+  instances: 1
+  host: twitter-demo-h
+  path: build/libs/retwisj.war
+  services:
+  - ratings-redis

@@ -1,0 +1,117 @@
+buildscript {
+    repositories {
+        //jcenter()
+        maven { url 'http://repo.springsource.org/plugins-release' }
+    }
+    dependencies {
+        classpath 'org.springframework.build.gradle:bundlor-plugin:0.1.2'
+        classpath 'org.springframework.build.gradle:docbook-reference-plugin:0.2.4'
+        classpath 'org.gradle.api.plugins:gradle-tomcat-plugin:1.2.5'
+        classpath 'org.cloudfoundry:cf-gradle-plugin:1.0.2'
+    }
+}
+
+description = 'Retwis-J'
+group = 'org.springframework.data'
+
+apply plugin: "java"
+apply plugin: 'eclipse'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'idea'
+//apply plugin: 'docbook-reference'
+apply plugin: 'tomcat'
+apply plugin: 'war'	
+apply plugin: 'cloudfoundry'
+
+
+group = 'org.springframework.data'
+version = "$springDataRedisTwitterVersion"
+
+sourceCompatibility = 1.8
+archivesBaseName = "retwisj"
+
+
+repositories {
+  maven { url "http://repo.springsource.org/libs-snapshot" }
+  maven { url "http://repo.springsource.org/plugins-release" }
+}
+
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/resources'
+            srcDir 'src/main/java'
+        }
+    }
+}
+
+dependencies {
+	compile "org.slf4j:slf4j-api:$slf4jVersion"
+	compile "org.slf4j:jcl-over-slf4j:$slf4jVersion"
+	runtime "org.slf4j:slf4j-log4j12:$slf4jVersion"
+	runtime "log4j:log4j:$log4jVersion"
+	compile "redis.clients:jedis:2.1.0"
+	compile "org.codehaus.jackson:jackson-core-asl:$jacksonVersion"
+	compile "org.codehaus.jackson:jackson-mapper-asl:$jacksonVersion"
+	compile "javax.servlet:com.springsource.javax.servlet.jsp.jstl:1.2.0"
+	compile ("org.springframework.data:spring-data-redis:$springRedisVersion") {
+        exclude group: 'commons-logging'
+    }
+	compile "org.springframework:spring-webmvc:$springVersion"
+	compile "javax.inject:com.springsource.javax.inject:1.0.0"
+	providedCompile "javax.servlet:com.springsource.javax.servlet:2.4.0"
+	providedCompile "javax.servlet:com.springsource.javax.servlet.jsp:2.1.0"
+	compile "javax.servlet:com.springsource.javax.servlet.jsp.jstl:1.2.0"
+	compile "org.apache.taglibs:com.springsource.org.apache.taglibs.standard:1.1.2"
+	// Testing
+	testCompile "junit:junit:$junitVersion"
+	testCompile "org.springframework:spring-test:$springVersion"
+	testCompile "org.mockito:mockito-all:$mockitoVersion"
+	
+	
+	
+	    // Tomcat
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}"
+    tomcat "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}"
+    tomcat("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}") {
+        exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
+    }
+	
+}
+
+task wrapper(type: Wrapper) {
+    description = 'Generates gradlew[.bat] scripts'
+    gradleVersion = '1.2'
+}
+
+war {
+  archiveName = baseName + "." + extension
+}
+
+//reference {
+//    sourceDir = file('docs/src/reference/docbook')
+//}
+
+tomcatRun {
+    outputFile = file('tomcat.log')
+}
+
+cloudfoundry {
+    target = "https://api.run.pivotal.io"
+    space = "development"
+
+    file = file("${war.archivePath}")
+    uri = "retwits-h"
+    memory = 512
+    instances = 1
+
+    services {
+        "ratings-redis" 
+    }
+}
+    
+defaultTasks 'build'
