@@ -1,0 +1,33 @@
+{
+  "name": "nodecellar",
+  "version": "0.0.1",
+  "description": "PCF Node.js demp",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "*",
+    "mongodb-uri": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingfadzi/nodecellar.git"
+  },
+  "keywords": [
+    "node.js",
+    "cloudfoundry",
+    "mongodb",
+    "backbone"
+  ],
+  "author": "kingfadzi",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kingfadzi/nodecellar/issues"
+  }
+}
