@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="retwisj">
+		<property name="context-root" value="retwisj"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.slf4j/slf4j-log4j12/1.6.6/jar/5cd9b4fbc3ff6a97beaade3206137d76f65df805/slf4j-log4j12-1.6.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-aop/3.1.4.RELEASE/jar/987dce710d76973e6f4f96a05463086afdf489d3/spring-aop-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.apache.taglibs/com.springsource.org.apache.taglibs.standard/1.1.2/jar/172c38d1679f48fb5afe62651b25cde5f89a53c0/com.springsource.org.apache.taglibs.standard-1.1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-asm/3.1.4.RELEASE/jar/a60440760f350b80ff612e9f49a41c3ef26935e3/spring-asm-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-webmvc/3.1.4.RELEASE/jar/e2151da3f3acf9213bb81a6d04592489dadbe755/spring-webmvc-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.slf4j/slf4j-api/1.6.6/jar/ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0/slf4j-api-1.6.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.slf4j/jcl-over-slf4j/1.6.6/jar/ec497945fdcaf7fd970ae9931b9bbfaf735d385e/jcl-over-slf4j-1.6.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-expression/3.1.4.RELEASE/jar/452515fc1fc013f05f3271fa7c95a43b671e4ffa/spring-expression-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.codehaus.jackson/jackson-core-asl/1.8.3/jar/3130e71a7d929347c5b112e43fe29428dfc070e0/jackson-core-asl-1.8.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-context/3.1.4.RELEASE/jar/ea5a227269a74dfd0d840ca91e647bc5212072b8/spring-context-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-beans/3.1.4.RELEASE/jar/ce0173be2202cb7a7a9162463fd6c2907aa558c2/spring-beans-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/redis.clients/jedis/2.1.0/jar/681c1fe046712c86ab53b7e89c5e3f27c8ad1578/jedis-2.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.codehaus.jackson/jackson-mapper-asl/1.8.3/jar/e684dfaa93b95a507779099cf100804dd1b0378c/jackson-mapper-asl-1.8.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-tx/3.1.4.RELEASE/jar/e7cd40e53940e26f24f5500a084b45f57fabaa01/spring-tx-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/commons-pool/commons-pool/1.5.5/jar/7d8ffbdc47aa0c5a8afe5dc2aaf512f369f1d19b/commons-pool-1.5.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/javax.inject/com.springsource.javax.inject/1.0.0/jar/e5be30d4249dd62f2cd19b70186291d6cda385fb/com.springsource.javax.inject-1.0.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework.data/spring-data-redis/1.1.0.RELEASE/jar/c9a2b82e87d9b398342a7d984757b27ffa04a70f/spring-data-redis-1.1.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/javax.servlet/com.springsource.javax.servlet.jsp.jstl/1.2.0/jar/84c75f6166a999332507c6f54650124e454b176e/com.springsource.javax.servlet.jsp.jstl-1.2.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-core/3.1.4.RELEASE/jar/6c9c2b5cc405b437d4089c51a10f7581f980497b/spring-core-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-web/3.1.4.RELEASE/jar/ccc9a401f6e146fe80108db9fbfde894cb63d6a0/spring-web-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/org.springframework/spring-context-support/3.1.4.RELEASE/jar/42824202b65f30da00e86d2980d700059ee900fc/spring-context-support-3.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/hrvojepejcinovic/.gradle/caches/artifacts-14/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

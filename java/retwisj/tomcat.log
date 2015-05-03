@@ -1,0 +1,52 @@
+Apr 27, 2015 10:03:10 AM org.apache.coyote.AbstractProtocolHandler init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 27, 2015 10:03:10 AM org.apache.coyote.AbstractProtocolHandler init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Apr 27, 2015 10:03:10 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Apr 27, 2015 10:03:10 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.11
+Apr 27, 2015 10:03:10 AM org.apache.catalina.startup.ContextConfig webConfig
+INFO: No global web.xml found
+Apr 27, 2015 10:03:21 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Apr 27, 2015 10:03:21 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Apr 27, 2015 10:03:22 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Apr 27, 2015 10:03:22 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Apr 27, 2015 10:03:23 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Apr 27, 2015 10:03:23 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Apr 27, 2015 10:03:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Apr 27, 2015 10:03:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Apr 27, 2015 10:03:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Apr 27, 2015 10:03:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Apr 27, 2015 10:03:25 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Apr 27, 2015 10:03:25 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Apr 27, 2015 10:03:25 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Apr 27, 2015 10:03:25 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Apr 27, 2015 10:03:26 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Apr 27, 2015 10:03:26 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.springframework.org/tags is already defined
+Apr 27, 2015 10:03:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.springframework.org/tags/form is already defined
+Apr 27, 2015 10:03:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Apr 27, 2015 10:03:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'retwisj'
+Apr 27, 2015 10:03:32 AM org.apache.coyote.AbstractProtocolHandler start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 27, 2015 10:03:32 AM org.apache.coyote.AbstractProtocolHandler start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
