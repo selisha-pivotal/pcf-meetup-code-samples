@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 512M
+  buildpack: python_buildpack
+  host: sentimentdemo
+  name: server.py
+  path: .
+  domain: cfapps.io
+  instances: 1
+  memory: 512M
