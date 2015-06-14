@@ -2,3 +2,7 @@
 /bin
 .set*
 .grad*
+tomcat*
+.class*
+.giti*
+.project
