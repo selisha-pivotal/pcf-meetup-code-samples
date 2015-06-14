@@ -1,7 +1,7 @@
 Spring Data - Redis Twitter Example
 ===================================
 
-An improved Java implementation of the [Redis Twitter Clone](http://redis.io/topics/twitter-clone) using Spring Data. Tutorial available [here](http://static.springsource.org/spring-data/data-keyvalue/examples/retwisj/current/)
+An improved Java implementation of the [Redis Twitter Clone](http://redis.io/topics/twitter-clone) using Spring Data. Tutorial available [here](http://static.springsource.org/spring-data/data-keyvalue/examples/retwisj/current/). This examples is built on Spring, it runs on Tomcat by default, and it needs Redis.
 
 
 ##Build
@@ -24,7 +24,7 @@ deploy the app
 Open browser to view the app [http://localhost:8080/retwisj](http://localhost:8080/retwisj)
       
 ##To deploy to Cloud Foundry
-Please ensure that you have have defined a Redis service called **ratings-redis**. If deploying to [Pivotal Web Services]  (http://run.pivotal.io) free Redis service is available from the Marketplace.
+Please ensure that you have have defined a Redis service called **ratings-redis**. If deploying to [Pivotal Web Services]  (http://run.pivotal.io) free Redis service is available from the Marketplace. Please view **manifest.yml** for more details.
 
       cf push
       
