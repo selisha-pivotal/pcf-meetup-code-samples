@@ -12,7 +12,6 @@ Simply type:
       gradlew build
 
 ##To run locally
-Start up an instance of the redis server, deploy your WAR and point your browser to (for the typical setup) [http://localhost:8080/retwisj](http://localhost:8080/retwisj)
 
 start redis
 
@@ -21,6 +20,8 @@ start redis
 deploy the app
 
       gradle tomcatRun
+
+Open browser to view the app [http://localhost:8080/retwisj](http://localhost:8080/retwisj)
       
 ##To deploy to Cloud Foundry
 Please ensure that you have have defined a Redis service called **ratings-redis**
