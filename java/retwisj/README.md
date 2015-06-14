@@ -24,7 +24,7 @@ deploy the app
 Open browser to view the app [http://localhost:8080/retwisj](http://localhost:8080/retwisj)
       
 ##To deploy to Cloud Foundry
-Please ensure that you have have defined a Redis service called **ratings-redis**. If deploying to [Pivotal Web Services]  (www.run.pivotal.io) free Redis service is available from marketplace.
+Please ensure that you have have defined a Redis service called **ratings-redis**. If deploying to [Pivotal Web Services]  (http://run.pivotal.io) free Redis service is available from the Marketplace.
 
       cf push
       
