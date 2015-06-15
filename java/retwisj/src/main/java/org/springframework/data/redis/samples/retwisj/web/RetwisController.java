@@ -189,6 +189,13 @@ public class RetwisController {
 		retwis.deleteAuth(user);
 		return "redirect:/";
 	}
+	
+	@RequestMapping("/killApp")
+	public String killApp() {
+		System.exit(-1);    	
+    	return "Killed";
+	}
+	
 
 	@RequestMapping("/status")
 	public String status(String pid, Model model) {

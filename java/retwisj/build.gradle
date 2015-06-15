@@ -1,7 +1,15 @@
+
+
+task wrapper(type: Wrapper) {
+    description = 'Generates gradlew[.bat] scripts'
+    gradleVersion = '2.0'
+}
+
 buildscript {
     repositories {
-        //jcenter()
+        jcenter()
         maven { url 'http://repo.springsource.org/plugins-release' }
+        
     }
     dependencies {
         classpath 'org.springframework.build.gradle:bundlor-plugin:0.1.2'
@@ -34,6 +42,7 @@ archivesBaseName = "retwisj"
 repositories {
   maven { url "http://repo.springsource.org/libs-snapshot" }
   maven { url "http://repo.springsource.org/plugins-release" }
+
 }
 
 
@@ -83,10 +92,8 @@ dependencies {
 	
 }
 
-task wrapper(type: Wrapper) {
-    description = 'Generates gradlew[.bat] scripts'
-    gradleVersion = '1.2'
-}
+
+
 
 war {
   archiveName = baseName + "." + extension

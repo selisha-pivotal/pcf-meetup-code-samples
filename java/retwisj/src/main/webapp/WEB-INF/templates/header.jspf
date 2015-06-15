@@ -26,10 +26,7 @@
       <div class="container">
       	  <div class="header">
       	  	  <div class="span-15 prepend-1">
-      	  	     <h2 class="alt"><a href="<c:url value="/"/>"">Yet another Twitter clone (YATC) v3</a></h2>
-      	  	  </div>
-      	  	  <div class="span-15 prepend-1">
-      	  	     <h2 class="alt"><b>Version 2</b></h2>
+      	  	     <h2 class="alt"><a href="<c:url value="/"/>"">Yet another Twitter clone (YATC) V1</a></h2>
       	  	  </div>
       	  	  
 			  <div class="span-8 last right-align">
@@ -48,6 +45,7 @@
 				  <a href="signIn"><fmt:message key="signin"/></a>
 				  <!-- </div> -->
 				</c:if>
+				| <a href="<c:url value="/killApp"/>"> <fmt:message key="killApp"/></a>
 			  </div>
 			  <hr/>
 		  </div>
